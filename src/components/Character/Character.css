@@ -1,0 +1,12 @@
+.card {
+  cursor: pointer;
+  height: 150px;
+  margin: 15px;
+  overflow: hidden;
+  width: 170px;
+}
+
+.card-height {
+  height: 100% !important;
+  width: 100% !important;
+}
