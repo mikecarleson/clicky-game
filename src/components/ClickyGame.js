@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Navbar from "./Navbar";
-import Container from "./Container";
-import Banner from "./Banner";
+import Navbar from "./Navbar/Navbar";
+import Container from "./Container/Container";
+import Banner from "./Banner/Banner";
 import images from "../images";
 
 class ClickyGame extends Component {
@@ -10,7 +10,7 @@ class ClickyGame extends Component {
     highScore: 0,
     navMsgColor: "",
 
-    navMessage: "Click image to begin!",
+    navMessage: "Click an image!",
 
     allCharacters: this.shuffleArray(),
 

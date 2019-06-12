@@ -1,9 +1,9 @@
 .card {
   cursor: pointer;
-  height: 150px;
+  height: 200px;
   margin: 15px;
   overflow: hidden;
-  width: 170px;
+  width: 200px;
 }
 
 .card-height {

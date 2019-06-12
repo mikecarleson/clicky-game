@@ -4,8 +4,8 @@ import "./Banner.css";
 const Banner = () => (
   <div className="banner text-center d-flex align-items-center">
     <p className="m-0">
-      Click on an image once to earn points. Click on image twice to lose all
-      your points!
+      Click an image once to earn points. Click an image twice and lose all
+      your points! 
     </p>
   </div>
 );

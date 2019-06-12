@@ -1,6 +1,6 @@
 import React from "react";
 import "./Container.css";
-import Character from "../Character";
+import Character from "../Character/Character";
 
 const Container = props => (
   <div className={"container d-flex flex-wrap justify-content-center"}>
