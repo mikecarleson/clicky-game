@@ -77,9 +77,10 @@ class ClickyGame extends Component {
   }
 
   render() {
+
     const state = this.state;
     return (
-      <div>
+      <div className="crt">
         <Navbar 
           score={state.score}
           highScore={state.highScore}
@@ -93,6 +94,8 @@ class ClickyGame extends Component {
         />
       </div>
     );
+
+
   }
 }
 

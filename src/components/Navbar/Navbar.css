@@ -1,11 +1,11 @@
 .navbar {
-  background: greenyellow;
-  min-height: 50px;
-  font-size: 1.5rem;
-  padding: 20px 0;
+  background: transparent;
+  /* min-height: 50px; */
+  font-size: 1.2rem;
+  padding: 10px 0;
   width: 100%;
   color: black;
-  z-index: 99;
+  /* z-index: 99; */
   position: fixed;
   top: 0;
 }
@@ -17,7 +17,7 @@
 .navbar div {
   margin-bottom: 0;
   text-align: center;
-  width: 33.333%;
+  width: 50%;
 }
 
 .incorrect {
